@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Demo Resposive Website</title>
+</head>
+
+<body>
+    <nav class="navbar background h-nav">
+        <ul class="nav-list v-class">
+            <div class="logo"><img src="img/Logo.jpg" alt="logo"></div>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+        <div class="rightNav v-class">
+            <input type="text" name="search" id="search" placeholder="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="background">
+        <div class="main-box">
+            <div class="firstHalf">
+                <p class="text-big">Technology is only future.</p>
+                <p class="text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim repellat nemo amet
+                    minima veritatis ratione, repudiandae ipsa iure explicabo cumque sequi eligendi, harum quidem!</p>
+            </div>
+            <div class="secondHalf">
+                <img src="./img/laptop.jpg " alt="man">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="moreContent" id='services'>
+        <div class="firstContent">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor libero voluptatum soluta beatae minus
+                fugit aliquid placeat alias voluptatem praesentium. Maiores repudiandae harum consectetur aut dolor
+                animi dolore excepturi saepe assumenda perspiciatis.</p>
+            <div class="first-img">
+                <img src="https://source.unsplash.com/300x300/?computer " alt="man">
+            </div>
+        </div>
+        <div class="secondContent reverse">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor libero voluptatum soluta beatae minus
+                fugit aliquid placeat alias voluptatem praesentium. Maiores repudiandae harum consectetur aut dolor
+                animi dolore excepturi saepe assumenda perspiciatis.</p>
+            <div class="second-img">
+                <img src="https://source.unsplash.com/300x300/?software" alt="man">
+            </div>
+        </div>
+        <div class="thirdContent">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor libero voluptatum soluta beatae minus
+                fugit aliquid placeat alias voluptatem praesentium. Maiores repudiandae harum consectetur aut dolor
+                animi dolore excepturi saepe assumenda perspiciatis.</p>
+            <div class="third-img">
+                <img src="https://source.unsplash.com/300x300/?mobile" alt="man">
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <div class="form" id='contact'>
+        <h1>Contact us</h1>
+        <form action="#" >
+            <label> Name <input type="text" name="name" id="name" placeholder="Enter the name" required></label>
+            <label>Email <input type="email" name="email" id="email" placeholder="Enter the email" required></label>
+            <label>Phone No. <input type="tel" name="phone" id="phone" placeholder="Enter your number"></label>
+            <label>Message <textarea></textarea></label>
+            <button class="submit">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <div class="footer background" id="about">
+            <p><h4>2020 &copy; copyright All rights reserved.</h4></p>
+        </div>
+    </footer>
+</body>
+ <script src="app.js"></script>
+</html>
